@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Soluitions </title>
+    <link rel="icon" type="image" href="./images/business.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;500&family=Work+Sans:wght@600&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/cb9dc44f1c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.47.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <!-- This css file here  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- tailwind config js file here  -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: "#da373d",
+                        ptext: "#777777;",
+                        btncolor: "#B68C5A;",
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<header class="container mx-auto px-4">
+
+    <!-- navbar section  start  here -->
+        
+            <div class="navbar bg-base-500">
+                <div class="flex-1">
+                    <img src="./images/business.png" alt="">
+                    <a class="btn btn-ghost normal-case font-bold text-4xl">Justice</a>
+                </div>
+                <div class="flex-initial ">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Services<i class="fa-regular fa-greater-than"></i></a></li>
+                        <li><a>Cases<i class="fa-regular fa-greater-than"></i> </a></li>
+                        <li><a>Blog<i class="fa-regular fa-greater-than"></i></a></li>
+                        <li><a>Contact Us<i class="fa-regular fa-greater-than"></i></a></li>
+
+                        <!-- The button to open modal start here -->
+                        <label for="my-modal" class="btn bg-btncolor border-0 send-message-button">Free
+                            Consultation</label>
+                        <input type="checkbox" id="my-modal" class="modal-toggle" />
+                        <div class="modal">
+                            <div class="modal-box">
+                                <h3 class="font-bold text-center text-lg">Congratulations! how can assisted you .</h3>
+                                <p class="py-4">This year  we are free Consultation's servered, so feel free to said any about cases please!
+                                   </p>
+                                <div class="modal-action">
+                                    <label for="my-modal" class="btn">Okay!</label>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                    <!-- The button to open modal ends here -->
+                </div>
+            </div>
+        </section>
+        <!-- navbar section ends here -->
+
+</header>
+
+
+</body>
+
+</html>

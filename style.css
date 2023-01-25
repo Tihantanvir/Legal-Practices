@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    max-width: auto;
+}
+
+/* Contact-With start here */
+.Contact-With {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+
+}
+
+.send-message-button {
+    border: none;
+    background-color: #B68C5A;
+    color: white;
+}
+
+.addressing {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: #F3F3F3;
+    gap: 20px;
+    background-image: white;
+
+}
+
+
+/* Contact-With ends  here */
+.arrow{
+    background-color: #B68C5A;
+    color: white;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    border-radius: 20px;
+    text-align: right;
+    align-items: center;
+    margin: auto;
+
+}
+/* .:hover{
+    background-color: #B68C5A;
+    color: white; 
+
+} */
+
+.btn{
+    background-color: #B68C5A;
+    color: white; 
+
+}
+
+
+.footer{
+    background-color: black;
+    color: #F3F3F3;
+    margin-top: 110px;
+    padding: 100px;
+}
